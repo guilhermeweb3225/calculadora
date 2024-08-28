@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <div id="dv1">
+        <p id="resultado"></p>
+        <table>
+            <tr>
+                <button onclick="zerar()">c</button>
+                <button onclick="tirar()">&#x232B</button>
+                <button onclick="elemen('*')" class="leftlado">x</button>
+                <button onclick="elemen('+')" class="leftlado">+</button>
+                <button onclick="elemen('1')">1</button>
+                <button onclick="elemen('2')">2</button>
+                <button onclick="elemen('3')">3</button>
+            </tr>
+
+            <tr>
+                <button onclick="elemen('-')" class="leftlado">-</button>
+                <button onclick="elemen('4')">4</button>
+                <button onclick="elemen('5')">5</button>
+                <button onclick="elemen('6')">6</button>
+            </tr>
+
+            <tr>
+                <button onclick="elemen('/')" class="leftlado">/</button>
+                <button onclick="elemen('7')">7</button>
+                <button onclick="elemen('8')">8</button>
+                <button onclick="elemen('9')">9</button>
+            </tr>
+
+            <tr>
+                <button onclick="elemen('.')"class="leftlado">.</button>
+                <button onclick="elemen('0')">0</button>
+                <button onclick="calcular()" class="leftlado" id="igual">=</button>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+body{
+    background-image: linear-gradient(to left,rgb(113, 113, 113),rgb(110, 110, 110));
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 390px;
+    height: 720px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    p{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(43, 255, 0);
+        height:50px ;
+        background-color: rgb(175, 174, 175);
+        border-radius: 10px;
+        border-bottom: 60px solid rgb(175, 174, 175);
+        border-top: 30px solid rgb(175, 174, 175) ;
+    }
+}
+
+    button{
+        box-shadow: 0px 0px 25px rgb(17, 37, 214);
+        background-color: rgb(34, 34, 34);
+        margin: 2px;
+        font-size: 20px;
+        font-weight: bold;
+        width:90px;
+        height: 110px;
+        border:none;
+        border-radius: 50%;
+        color: aliceblue;
+}
+button:hover{
+    background-color: rgba(84, 84, 84, 0.756);
+    box-shadow: 0px 0px 25px rgb(255, 255, 255);
+
+}
+.leftlado{
+    background-color: rgba(25, 252, 4, 0.875);
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+
+}
+.leftlado:hover{
+    background-color: rgba(25, 252, 4, 0.665);
+    box-shadow: 0px 0px 10px rgb(38, 255, 0);
+
+}
+button#igual{
+    width:270px;
+    height:90px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 208, 0.471);
+}
+#igual:hover{
+    background-color: rgb(141, 0, 0);
+}
